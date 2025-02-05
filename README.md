@@ -30,9 +30,9 @@ Si tu ne souhaites pas utiliser un environnement virtuel, tu peux installer `dns
 
 ## Utilisation
 1. Exécuter le script pour vérifier si un email existe :  
-`python emailActiv.py <email>`  
+`python EmailExistenceChecker.py <email>`  
 Remplace `<email>` par l'email que tu souhaites vérifier.  
-Exemple : `python emailActiv.py test@example.com`
+Exemple : `python EmailExistenceChecker.py test@example.com`
 
 Le script retournera un message indiquant si l'email existe ou non.
 
