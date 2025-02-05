@@ -50,4 +50,4 @@ Si une erreur survient pendant la tentative de vérification :
 `[!!!] ERROR test@example.com: <error_message>`
 
 ## Auteurs
-Développé par [Ton Nom].
+Développé par DocteurMoriarty.
