@@ -2,6 +2,14 @@ import dns.resolver
 import smtplib
 import sys
 
+if dns.__version__ == "2.7.0":
+    print("[...] VERSION ",dns.__version__,"[OK]")
+else:
+    print("[...] VERSION ",dns.__version__,"[KO]")
+    print("[\o/] pip install dnspython==2.7.0")
+    sys.exit(1)
+
+
 def get_mx_records(domain):
     print("GET MX RECORD...")
     try:
