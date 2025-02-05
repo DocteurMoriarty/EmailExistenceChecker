@@ -22,7 +22,7 @@ Ce script permet de vérifier si une adresse email existe en interrogeant les se
    - Sous Windows : `.\venv\Scripts\activate`
 3. Installer les dépendances : `pip install dnspython==2.7.0`
 
-**Note** : Si tu as un fichier `requirements.txt`, tu peux installer toutes les dépendances avec `pip install -r requirements.txt`
+**Note** : Télécharge le fichier `requirements.txt`, tu peux installer toutes les dépendances avec `pip install -r requirements.txt`
 
 ### Installation normale (sans environnement virtuel)
 Si tu ne souhaites pas utiliser un environnement virtuel, tu peux installer `dnspython` globalement avec :  
