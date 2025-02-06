@@ -6,7 +6,7 @@ if dns.__version__ == "2.7.0":
     print("[...] VERSION ",dns.__version__,"[OK]")
 else:
     print("[...] VERSION ",dns.__version__,"[KO]")
-    print("[\o/] pip install dnspython==2.7.0")
+    print("[!o!] pip install dnspython==2.7.0")
     sys.exit(1)
 
 
